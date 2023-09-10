@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: rgb(4, 218, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.left-header .logo {
+    background-image: url('asset/logo-smkn1.png');
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.right-header a {
+    display: block;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: .8rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.right-header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+main {
+    background-image: url('asset/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    filter: contrast(1.1);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    overflow: auto;
+    -webkit-filter: contrast(1.1);
+}
+
+.visimisi {
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.items-visimisi{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px 35px;
+    width: 500px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.visimisi-title {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1.7rem;
+}
+
+.visimisi-p {
+    font-size: .8rem;
+    text-align: justify;
+    min-height: 300px;
+}
+
+footer {
+    height: 8%;
+    background-color: rgb(2, 112, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.medsos {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: .9rem;
+    color: white;
+}
+
+.sosial-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
